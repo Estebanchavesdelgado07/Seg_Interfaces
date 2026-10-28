@@ -1,1 +1,2 @@
 # Seg_Interfaces
+La Segregacion de Interfaces dice que ninguna clase deberia de estar forzado de metodos que no utiliza, es por esto que, es mejor que crear interfaces para cada accion especifica en vez de tener una interfaz general. En el codigo se demuestra de la siguiente manera, las acciones se separan en tres clases "Reemplazable","Expirable" y "Enviable". Luego estan las clase "Fisico", que unicamente utiliza las clases que necesita, al igual que la clase "Digital", haciendo que ninguna clase tenga metodos que no va a utilizar
